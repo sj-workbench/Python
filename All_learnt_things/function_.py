@@ -62,3 +62,7 @@ def average(*number):
     return sum/len(number)
 c = average(5,6,7,1)
 print(c)
+
+def names(**name):
+    return "Hellow"+ name["fname"] + " " + name["mname"] + " "+ name["lname"]
+nama = name(fname = "sj", mname = "ninja", lname = "hattori")
